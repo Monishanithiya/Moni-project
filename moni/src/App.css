@@ -12,7 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.App-col-md-3
+{
+  text-align: left;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +25,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.title
+{
+  top:5.56%;
+  text-align: bolder;
 }
 
 .App-link {
@@ -35,4 +43,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.col-md-3{
+  padding: 25px;
+  padding-bottom: 3%;
 }

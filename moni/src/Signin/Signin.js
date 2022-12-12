@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -45,6 +46,7 @@ export default function Signin() {
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
+        
         <Box
           sx={{
             marginTop: 8,
@@ -56,8 +58,8 @@ export default function Signin() {
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
-            Sign Up
+          <Typography component="h1" variant="h2">
+            BEAT BOX
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
@@ -125,7 +127,8 @@ export default function Signin() {
             <Grid container>
               <Grid item xs>
                 <Link href="#" variant="body2">
-                  Already an member?   <Button
+                  Already an member?  
+               <Button
               type="submit"
 
               variant="contained"
@@ -135,8 +138,6 @@ export default function Signin() {
             </Button>
                 </Link>
               </Grid>
-              
-
             </Grid>
           </Box>
         </Box>
